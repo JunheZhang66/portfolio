@@ -1,0 +1,80 @@
+.content {
+    position: relative;
+    top: 0;
+}
+
+.content-info {
+    padding: 2.5rem;
+}
+
+.about-me.header {
+    position: relative;
+    left: 2rem;
+}
+
+.about-me.header p {
+    max-width: 45rem;
+}
+
+.name-heading {
+    /* color: gold; */
+    font-size: 3rem;
+}
+
+.name-heading .my-name {
+    color: rgb(4, 179, 202);
+    /* border-bottom: 3px solid rgb(4, 179, 202) */
+    text-shadow: 3px 3px 4px rgb(4, 179, 202);
+}
+
+div.about-me {
+    /* padding-top: 0.5rem; */
+    /* padding-bottom: 0.5rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* Education */
+
+.about-me h2 {
+    position: relative;
+    top: 1.7rem;
+}
+
+.about-me .experience .edu {
+    margin-top: 2rem;
+}
+
+.about-me .experience .edu p {
+    line-height: 0.7rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+/* Experience */
+
+
+/* Aboutme Picture */
+
+.about-me .pic {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Skills */
+
+.about-me-skills {
+    padding-left: 2rem;
+    /* padding-top: 0.5rem; */
+}
+
+.skill-list {
+    margin-top: 2.5rem;
+}
+
+.skill-list div {
+    float: left;
+}

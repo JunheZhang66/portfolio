@@ -1,0 +1,53 @@
+/* Timeline */
+
+.timeline {
+    width: 100%;
+    padding: 0 auto;
+}
+
+.timeline .container {
+    background-color: #fff;
+    opacity: 0.96;
+}
+
+.timeline-div {
+    display: grid;
+    grid-template-columns: 10% 5px 90%;
+}
+
+.timeline-date {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.timeline-middle {
+    position: relative;
+    background: rgb(99, 88, 88, 0.4);
+}
+
+.timeline-point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(119, 107, 107);
+}
+
+.timeline-project {
+    margin-left: 1rem;
+}
+
+.project-info>* {
+    padding: 0.5rem 0;
+    margin: 0 2rem;
+}
+
+.project-detail-list {
+    padding: 0 2rem;
+    line-height: 1.5rem;
+    list-style-type: circle;
+}
